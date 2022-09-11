@@ -1,0 +1,21 @@
+overview - purpose is to determine if the orginization that is requesting money from alphabet will be successful with what they want to use the money for. 
+
+results - 
+target is whether orginization was successful or not IS_SUCCESSFUL
+
+features are columns in dataframe 
+
+APPLICATION_TYPE—Alphabet Soup application type
+AFFILIATION—Affiliated sector of industry
+CLASSIFICATION—Government organization classification
+USE_CASE—Use case for funding
+ORGANIZATION—Organization type
+STATUS—Active status
+INCOME_AMT—Income classification
+SPECIAL_CONSIDERATIONS—Special consideration for application
+ASK_AMT—Funding amount requested
+
+removed ein and name columns because identification is not needed for prediction
+
+tried with 3 layers at different unit levels. changing levels didn't seem to change a whole lot
+adding a 4th layer doesn't change a whole lot
